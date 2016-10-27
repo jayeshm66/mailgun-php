@@ -6,8 +6,7 @@ class Helper
 {
      
 	function send_mailgun_mail($to,$subject,$emailText,$from,$cc,$attachment_arr) {
-      
-    return true;
+
 	// initialise mailgun api key
 		$mgClient = new Mailgun(MAILGUN_API_KEY);
 
